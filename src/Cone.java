@@ -17,8 +17,6 @@
  * Surface area and volume of a cone
  */
 
-import java.security.PublicKey;
-
 public class Cone extends Shape
 /* shows Inheritance from Shape, 
    cone MUST implement surface_area () and volume() */
@@ -41,10 +39,16 @@ public class Cone extends Shape
     public double surface_area()
     {
         // Calculates slant height for cone surface area formula
-        double slantHeight = Math.sqrt((height * height) +
-                                        (radius * radius));
+        double slantHeight = Math.sqrt((height * height) + (radius * radius));
 
         return Math.PI * radius * (radius + slantHeight);
+    }
+
+    // Override annotation acts as a safety check
+    @Override
+    public double volume()
+    {
+        return (1.0 / 3.0) * Math.PI * radius * radius * height;
     }
 
     // Override annotation acts as a safety check 
