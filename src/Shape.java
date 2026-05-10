@@ -1,4 +1,4 @@
-public /*
+/*
  * Program Name: Shape.java
  * Author: Cody Walker
  * Date: 05/10/2026
@@ -13,9 +13,9 @@ public /*
  *
  * Program Outputs:
  * Surface area and volume calculations from child classes.
- */ {
+ */ 
     
-}
+
 
 public abstract class Shape
 {
