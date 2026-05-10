@@ -23,11 +23,11 @@ public class ShapeArray {
     public static void main(String[] args)
     {
         // Create one object of each shape
-        Sphere sphere = new Sphere(5.0);
+        Sphere sphere = new Sphere(2.5);
 
-        Cylinder cylinder = new Cylinder(4.0, 10.0);
+        Cylinder cylinder = new Cylinder(6.0, 8.0);
 
-        Cone cone = new Cone(3.0, 7.0);
+        Cone cone = new Cone(5.0, 12.0);
 
         /* Polymorphism:
            shape array can store different child objects because
