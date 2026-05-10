@@ -58,7 +58,7 @@ public class Cone extends Shape
         return "Cone\n" +
                "Radius: " + radius +
                "\nHeight: " + height +
-               "\nSurface Area: " + surface_area() +
-               "\nVolume: " + volume();
+               "\nSurface Area: " + String.format("%.2f", surface_area()) +
+               "\nVolume: " + String.format("%.2f", volume());
     }
 }
